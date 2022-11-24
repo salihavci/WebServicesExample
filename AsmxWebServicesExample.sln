@@ -5,6 +5,11 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsmxWebServicesExample", "AsmxWebServicesExample\AsmxWebServicesExample.csproj", "{84A9A0CE-40E1-4D98-8132-D4CEE69C9159}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplications", "WebApplications\WebApplications.csproj", "{A778B7FC-025B-40CB-B687-2917998AA327}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84A9A0CE-40E1-4D98-8132-D4CEE69C9159} = {84A9A0CE-40E1-4D98-8132-D4CEE69C9159}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{84A9A0CE-40E1-4D98-8132-D4CEE69C9159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A9A0CE-40E1-4D98-8132-D4CEE69C9159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A9A0CE-40E1-4D98-8132-D4CEE69C9159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A778B7FC-025B-40CB-B687-2917998AA327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A778B7FC-025B-40CB-B687-2917998AA327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A778B7FC-025B-40CB-B687-2917998AA327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A778B7FC-025B-40CB-B687-2917998AA327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
