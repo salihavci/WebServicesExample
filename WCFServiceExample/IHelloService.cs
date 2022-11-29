@@ -8,7 +8,7 @@ using System.Text;
 namespace WCFServiceExample
 {
     // NOT: "IHelloService" arabirim adını kodda ve yapılandırma dosyasında birlikte değiştirmek için "Yeniden Düzenle" menüsündeki "Yeniden Adlandır" komutunu kullanabilirsiniz.
-    [ServiceContract]
+    [ServiceContract(Name = "IHelloService")]
     public interface IHelloService
     {
         [OperationContract]
