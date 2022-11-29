@@ -10,6 +10,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplications", "WebAppli
 		{84A9A0CE-40E1-4D98-8132-D4CEE69C9159} = {84A9A0CE-40E1-4D98-8132-D4CEE69C9159}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServicesExample", "RemotingServicesExample\RemotingServicesExample.csproj", "{0596606B-01F5-4D73-A84F-08DF044694B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceHost", "RemotingServiceHost\RemotingServiceHost.csproj", "{92FCFF88-885F-44BD-8034-FB6E795E08CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceClient", "RemotingServiceClient\RemotingServiceClient.csproj", "{982D7558-687D-4F30-80F6-29A072A7EAE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +30,18 @@ Global
 		{A778B7FC-025B-40CB-B687-2917998AA327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A778B7FC-025B-40CB-B687-2917998AA327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A778B7FC-025B-40CB-B687-2917998AA327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0596606B-01F5-4D73-A84F-08DF044694B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0596606B-01F5-4D73-A84F-08DF044694B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0596606B-01F5-4D73-A84F-08DF044694B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0596606B-01F5-4D73-A84F-08DF044694B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FCFF88-885F-44BD-8034-FB6E795E08CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FCFF88-885F-44BD-8034-FB6E795E08CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FCFF88-885F-44BD-8034-FB6E795E08CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FCFF88-885F-44BD-8034-FB6E795E08CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982D7558-687D-4F30-80F6-29A072A7EAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982D7558-687D-4F30-80F6-29A072A7EAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982D7558-687D-4F30-80F6-29A072A7EAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982D7558-687D-4F30-80F6-29A072A7EAE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
